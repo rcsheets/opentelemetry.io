@@ -88,7 +88,7 @@ $ kubectl apply -f https://raw.githubusercontent.com/open-telemetry/opentelemetr
 ### Local
 
 Builds the latest version of the collector based on the local operating system,
-runs the binary with all receivers enabled and exports all the data it receivers
+runs the binary with all receivers enabled and exports all the data it receives
 locally to a file. Data is sent to the container and the container scrapes its own
 Prometheus metrics.
 
